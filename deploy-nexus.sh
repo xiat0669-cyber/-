@@ -43,7 +43,7 @@ cd ~
 rm -rf nexus-cli
 git clone https://github.com/nexus-xyz/nexus-cli.git
 cd nexus-cli/clients/cli
-cargo build --release --bin nexus-network
+cargo build --release --no-default-features --bin nexus-network
 
 cp target/release/nexus-network /usr/local/bin/nexus-cli
 nexus-cli --version
