@@ -21,7 +21,6 @@ fi
 read -p "请输入你的钱包地址（可选，回车跳过）: " WALLET_ADDRESS
 
 LOG_FILE="$HOME/nexus-deploy.log"
-echo "部署开始于 $(date)" > $LOG_FILE
 
 log() {
     echo "$1" | tee -a $LOG_FILE
