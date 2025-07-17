@@ -1,0 +1,16 @@
+
+---
+
+## ✅ 二、MIT License 要改吗？
+
+不需要改内容，但你可以选择：
+
+### ✅ 选项一：保留默认 MIT license（推荐）
+GitHub 默认生成的 LICENSE 已包含完整协议，你已经满足开源项目规范，无需更改。
+
+### ✅ 选项二：加一句作者信息（可选）
+如果你想让别人知道是你发布的，可以在 license 最后加一句：
+
+```text
+作者：加密狗（@JiamigouCn）｜https://x.com/JiamigouCn
+
