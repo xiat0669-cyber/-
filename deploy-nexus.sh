@@ -20,7 +20,7 @@ fi
 
 read -p "请输入你的钱包地址（可选，回车跳过）: " WALLET_ADDRESS
 
-LOG_FILE="$HOME/nexus-deploy.log"  # 使用当前用户主目录
+LOG_FILE="$HOME/nexus-deploy.log"
 echo "部署开始于 $(date)" > $LOG_FILE
 
 log() {
